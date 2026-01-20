@@ -18,5 +18,5 @@ if year_to_int > current_year
     puts "You are current not born yet!!"
 else
     age = current_year - year_to_int
-    puts "You are #{age} year old. Congratulations!!!"
+    puts "You were #{age} year old. Congratulations!!!"
 end
