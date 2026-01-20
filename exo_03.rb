@@ -1,6 +1,6 @@
 print "Enter the year of you birth: "
 birth_year = gets.chomp
-current_year = Time.now.year
+current_year = 2017
 
 while birth_year.empty? || !birth_year.match?(/^\d+$/)
     if !birth_year.match?(/^\d+$/)
